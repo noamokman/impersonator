@@ -1,0 +1,28 @@
+{
+  "name": "impersonator",
+  "version": "0.0.0",
+  "description": "User impersonation for windows",
+  "main": "lib/impersonator.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "install": "node-gyp rebuild"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/noamokman/impersonator.git"
+  },
+  "keywords": [
+    "windows",
+    "impersonation",
+    "user",
+    "auth",
+    "authentication"
+  ],
+  "author": "Noam Okman",
+  "license": "MIT",
+  "gypfile": true,
+  "bugs": {
+    "url": "https://github.com/noamokman/impersonator/issues"
+  },
+  "homepage": "https://github.com/noamokman/impersonator"
+}
