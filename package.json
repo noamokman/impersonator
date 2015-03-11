@@ -4,8 +4,7 @@
   "description": "User impersonation for windows",
   "main": "lib/impersonator.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "install": "node-gyp rebuild"
+    "test": "gulp test"
   },
   "repository": {
     "type": "git",
@@ -20,9 +19,16 @@
   ],
   "author": "Noam Okman",
   "license": "MIT",
-  "gypfile": true,
   "bugs": {
     "url": "https://github.com/noamokman/impersonator/issues"
   },
-  "homepage": "https://github.com/noamokman/impersonator"
+  "homepage": "https://github.com/noamokman/impersonator",
+  "dependencies": {
+    "bindings": "^1.2.1"
+  },
+  "devDependencies": {
+    "gulp": "^3.8.11",
+    "gulp-jshint": "^1.9.2",
+    "jshint-stylish": "^1.0.1"
+  }
 }
