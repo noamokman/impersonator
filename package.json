@@ -19,6 +19,7 @@
   ],
   "author": "Noam Okman",
   "license": "MIT",
+  "os" : [ "win32" ],
   "bugs": {
     "url": "https://github.com/noamokman/impersonator/issues"
   },
