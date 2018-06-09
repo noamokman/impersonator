@@ -1,4 +1,7 @@
 # impersonator
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/noamokman/impersonator.svg)](https://greenkeeper.io/)
+
 User impersonation for windows
 
 ## Install
